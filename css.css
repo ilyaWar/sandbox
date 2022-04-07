@@ -10,7 +10,6 @@ body {
 .vector{
 	float:left;
 	height: 45px;
-
 	margin: 20px 0px 19px 50px;
 }
 .link{
@@ -27,7 +26,6 @@ body {
 	background: url(images/image\ \(1\).png);
 	height: 413px;
 	width:100%;
-	
 	background-size: cover;
 	font-family: 'Roboto';
 	font-style: normal;
@@ -38,12 +36,15 @@ body {
 	color: rgb(255, 255, 255);
 	text-align: center;
 }
-
+.middle{
+	width: 100%;
+	height: 719px;
+	background: #EEEEEE;	
+}
 h2{
 	width: 100%;
 	margin:0;
 	padding-top: 48px;
-
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 600;
@@ -51,22 +52,21 @@ h2{
 	line-height: 75px;
 	text-align: center;
 	color: #007765;
-	
 }
 .middle-text{
-	text-align: left;
 	width: 100%;
 	height: 488px;
 	padding-left: 55px;
 	padding-right: 54px;
 	padding-bottom: 92px;
-
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 32px;
 	line-height: 38px;
-
-color: #000000;
+	color: #000000;
+}
+span{
+	font-weight: bold;
 }
 
