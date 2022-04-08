@@ -4,7 +4,7 @@ body {
 .header{
 	background: url(images/Rectangle.png);
 	height: 84px;
-	width: 100%;
+	width: 1219px;
 	position: fixed;
 }
 .vector{
@@ -23,13 +23,12 @@ body {
 	line-height: 28px;
 }
 .jumbotron{
-	background: url(images/image\ \(1\).png);
-	height: 413px;
-	width:100%;
-	background-size: cover;
+	background: url(images/image\ \(1\).png) center no-repeat ;
+	height: 403px;
+	width: 1219px;
 	font-family: 'Roboto';
 	font-style: normal;
-	padding-top: 400px;
+	padding-top: 160px;
 	line-height: 84px;
 	font-size: 72px;
 	font-weight: 500 ;
@@ -37,28 +36,27 @@ body {
 	text-align: center;
 }
 .middle{
-	width: 100%;
+	margin-top: -100px;
+	width: 1219px;
 	height: 719px;
 	background: #EEEEEE;	
 }
 h2{
-	width: 100%;
 	margin:0;
-	padding-top: 48px;
+	padding: 48px 54px 0px 55px;
+	margin-bottom: -22px;
 	font-family: 'Roboto';
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 900;
 	font-size: 64px;
 	line-height: 75px;
 	text-align: center;
 	color: #007765;
 }
 .middle-text{
-	width: 100%;
+	margin-top: 0;
 	height: 488px;
-	padding-left: 55px;
-	padding-right: 54px;
-	padding-bottom: 92px;
+	padding: 0px 54px 92px 55px;
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
@@ -69,4 +67,8 @@ h2{
 span{
 	font-weight: bold;
 }
-
+.hero{
+	background: url(images/image\ \(1\).jpg);
+	height: 413px;
+	width:1219px;
+}
